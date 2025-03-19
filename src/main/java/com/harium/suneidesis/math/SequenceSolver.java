@@ -31,7 +31,7 @@ public class SequenceSolver {
                 isArithmetic = false;
             }
 
-            if ((double) sequence[i] / sequence[i - 1] != commonRatio) {
+            if (sequence[i - 1] != 0 && (double) sequence[i] / sequence[i - 1] != commonRatio) {
                 isGeometric = false;
             }
         }

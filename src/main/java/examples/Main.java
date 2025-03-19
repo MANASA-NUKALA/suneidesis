@@ -1,5 +1,6 @@
-package com.harium.suneidesis.math;
+package examples;
 
+import com.harium.suneidesis.math.SequenceSolver;
 import java.util.Scanner;
 
 public class Main {
